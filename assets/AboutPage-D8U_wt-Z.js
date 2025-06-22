@@ -1,4 +1,4 @@
-import{r,j as a,A as g,m as n,d as i,L as v}from"./index-BzgaFxma.js";const w="/my-portfolio/assets/your-profile-pic-QWoWtvZ8.jpg",j=i(n.section)`
+import{r,j as a,A as g,m as n,d as i,L as v}from"./index-v3IqPoVJ.js";const w="/my-portfolio/assets/your-profile-pic-QWoWtvZ8.jpg",j=i(n.section)`
   min-height: 100vh;
   padding: 80px 20px;
   display: flex;
