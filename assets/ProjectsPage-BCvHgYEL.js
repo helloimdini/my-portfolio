@@ -1,4 +1,4 @@
-import{r as f,j as a,A as v,d as e,m as i,L as w}from"./index-v3IqPoVJ.js";const j=e(i.div)`
+import{r as f,j as a,A as v,d as e,m as i}from"./index-C_it_cYW.js";const w=e(i.div)`
   background-color: #1A1F27;
   border: 1px solid var(--color-accent-purple); 
   border-radius: 15px;
@@ -21,14 +21,14 @@ import{r as f,j as a,A as v,d as e,m as i,L as w}from"./index-v3IqPoVJ.js";const
       0 0 50px rgba(139, 92, 246, 0.4); 
     border-color: var(--color-accent-blue);
   }
-`,P=e.img`
+`,j=e.img`
   width: 100%;
   max-height: 200px;
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 20px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-`,S=e.h3`
+`,P=e.h3`
   font-size: 1.8rem;
   color: var(--color-accent-green);
   margin-bottom: 10px;
@@ -36,14 +36,14 @@ import{r as f,j as a,A as v,d as e,m as i,L as w}from"./index-v3IqPoVJ.js";const
   font-weight: 700;
   width: 100%;
   font-family: var(--font-heading);
-`,C=e.p`
+`,S=e.p`
   font-size: 1rem;
   color: var(--color-text-secondary);
   margin-bottom: 15px;
   text-align: center;
   font-family: var(--font-body);
   flex-grow: 1;
-`,L=e.div`
+`,C=e.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -69,7 +69,7 @@ import{r as f,j as a,A as v,d as e,m as i,L as w}from"./index-v3IqPoVJ.js";const
     transform: translateY(-2px);
     background-color: var(--color-accent-blue);
   }
-`,A=e.div`
+`,L=e.div`
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
@@ -119,14 +119,14 @@ import{r as f,j as a,A as v,d as e,m as i,L as w}from"./index-v3IqPoVJ.js";const
     transform: translateY(-3px);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
   }
-`,B=e(i.p)`
+`,A=e(i.p)`
   font-size: 0.9rem;
   color: var(--color-accent-pink);
   margin-top: 10px;
   text-align: center;
   font-weight: 500;
   width: 100%;
-`;function U({title:r,description:n,image:c,tech:k,liveLink:s,githubLink:l,variants:x}){const[p,d]=f.useState(""),b=s&&s!=="#",y=l&&l!=="#",m=o=>{let t="";o==="live"?t="Demo langsung proyek ini sedang dalam tahap pengembangan.":o==="github"?t="Repositori GitHub proyek ini akan segera tersedia.":t="Proyek ini sedang dalam pengembangan, tautan akan segera ditambahkan.",d(t),setTimeout(()=>{d("")},4e3)};return a.jsxs(j,{variants:x,children:[c&&a.jsx(P,{src:c,alt:r}),a.jsx(S,{children:r}),a.jsx(C,{children:n}),a.jsx(L,{children:k.map((o,t)=>a.jsx(I,{children:o},t))}),a.jsxs(A,{children:[b?a.jsx(g,{href:s,target:"_blank",rel:"noopener noreferrer",whileHover:{scale:1.05},whileTap:{scale:.95},children:"Live Demo"}):a.jsx(u,{onClick:()=>m("live"),whileHover:{scale:1.05},whileTap:{scale:.95},children:"Live Demo"}),y?a.jsx(g,{href:l,target:"_blank",rel:"noopener noreferrer",whileHover:{scale:1.05},whileTap:{scale:.95},children:"GitHub Repo"}):a.jsx(u,{onClick:()=>m("github"),whileHover:{scale:1.05},whileTap:{scale:.95},children:"GitHub Repo"})]}),a.jsx(v,{children:p&&a.jsx(B,{initial:{opacity:0,y:-10},animate:{opacity:1,y:0},exit:{opacity:0,y:-10},transition:{duration:.3},children:p})})]})}const z="/my-portfolio/assets/artikel-healthymind-CL2UzM58.png",M="/my-portfolio/assets/sistem-kasir-java-CIfzN-Ix.png",T="/my-portfolio/assets/zoomify-figma-D9QCVVHP.jpg",H=e(i.section)`
+`;function B({title:r,description:n,image:c,tech:k,liveLink:s,githubLink:l,variants:x}){const[p,d]=f.useState(""),b=s&&s!=="#",y=l&&l!=="#",m=o=>{let t="";o==="live"?t="Demo langsung proyek ini sedang dalam tahap pengembangan.":o==="github"?t="Repositori GitHub proyek ini akan segera tersedia.":t="Proyek ini sedang dalam pengembangan, tautan akan segera ditambahkan.",d(t),setTimeout(()=>{d("")},4e3)};return a.jsxs(w,{variants:x,children:[c&&a.jsx(j,{src:c,alt:r}),a.jsx(P,{children:r}),a.jsx(S,{children:n}),a.jsx(C,{children:k.map((o,t)=>a.jsx(I,{children:o},t))}),a.jsxs(L,{children:[b?a.jsx(g,{href:s,target:"_blank",rel:"noopener noreferrer",whileHover:{scale:1.05},whileTap:{scale:.95},children:"Live Demo"}):a.jsx(u,{onClick:()=>m("live"),whileHover:{scale:1.05},whileTap:{scale:.95},children:"Live Demo"}),y?a.jsx(g,{href:l,target:"_blank",rel:"noopener noreferrer",whileHover:{scale:1.05},whileTap:{scale:.95},children:"GitHub Repo"}):a.jsx(u,{onClick:()=>m("github"),whileHover:{scale:1.05},whileTap:{scale:.95},children:"GitHub Repo"})]}),a.jsx(v,{children:p&&a.jsx(A,{initial:{opacity:0,y:-10},animate:{opacity:1,y:0},exit:{opacity:0,y:-10},transition:{duration:.3},children:p})})]})}const U="/my-portfolio/assets/artikel-healthymind-CL2UzM58.png",z="/my-portfolio/assets/sistem-kasir-java-CIfzN-Ix.png",M="/my-portfolio/assets/zoomify-figma-D9QCVVHP.jpg",H=e(i.section)`
   min-height: 100vh;
   padding: 100px 20px;
   display: flex;
@@ -148,7 +148,7 @@ import{r as f,j as a,A as v,d as e,m as i,L as w}from"./index-v3IqPoVJ.js";const
     z-index: 0;
     pointer-events: none;
   }
-`,D=e(i.h2)`
+`,T=e(i.h2)`
   font-size: clamp(2.2rem, 5vw, 4rem);
   background: linear-gradient(90deg, var(--color-accent-blue), var(--color-accent-purple), var(--color-accent-pink));
   -webkit-background-clip: text;
@@ -162,7 +162,7 @@ import{r as f,j as a,A as v,d as e,m as i,L as w}from"./index-v3IqPoVJ.js";const
   text-shadow: 0 0 20px rgba(0, 191, 255, 0.5);
   z-index: 1;
   text-align: center; /* Pastikan rata tengah */
-`,O=e(i.div)`
+`,D=e(i.div)`
   display: grid;
   /* Aturan utama untuk 2 kolom */
   grid-template-columns: repeat(2, 1fr);
@@ -180,7 +180,7 @@ import{r as f,j as a,A as v,d as e,m as i,L as w}from"./index-v3IqPoVJ.js";const
   @media (max-width: 576px) { /* Optional: Breakpoint tambahan untuk layar sangat kecil (ponsel) */
     gap: 30px; /* Kurangi gap jika terlalu lebar di layar kecil */
   }
-`,R=e(i(w))`
+`,O=e(i.div)`
   margin-top: 80px;
   text-align: center;
   z-index: 1;
@@ -223,4 +223,4 @@ import{r as f,j as a,A as v,d as e,m as i,L as w}from"./index-v3IqPoVJ.js";const
     }
     /* ------------------------------------- */
   }
-`,V={hidden:{opacity:0},visible:{opacity:1,transition:{delayChildren:.3,staggerChildren:.2}}};function J(){const r=[{id:1,title:"HealthyMind: Blog Kesehatan Mental",description:"Sebuah platform blog yang saya bangun dari nol menggunakan **HTML & CSS murni**. Proyek ini adalah wujud komitmen saya untuk menyajikan informasi kesehatan mental dengan **antarmuka bersih, intuitif, dan responsif**. Fokusnya adalah menciptakan pengalaman membaca yang menenangkan, sekaligus menonjolkan bagaimana desain fundamental dapat membawa dampak positif dan fungsionalitas yang kuat.",image:z,tech:["HTML5","CSS3","Responsive Design","UI/UX Concepts"],liveLink:"#",githubLink:"#"},{id:2,title:"Cashflow Maestro: Sistem Kasir Java",description:"Mengembangkan sistem kasir berbasis desktop yang **efisien dan terintegrasi** menggunakan **Java dan NetBeans**. Proyek ini mengasah kemampuan saya dalam **Pemrograman Berorientasi Objek (OOP)**, menyederhanakan manajemen transaksi harian dengan fitur lengkap seperti pencatatan produk, pembayaran cepat dengan struk otomatis, dan riwayat transaksi yang terorganisir. Sebuah studi kasus nyata dalam membangun aplikasi yang **andal dan berorientasi pada efisiensi operasional**.",image:M,tech:["Java","Java Swing","NetBeans","OOP","Database Design"],liveLink:"#",githubLink:"#"},{id:3,title:"Zoomify: Desain UI/UX Konferensi Video",description:"Memimpin perancangan UI/UX untuk **'Zoomify'**, sebuah aplikasi konferensi video inovatif, sepenuhnya di **Figma**. Proyek kolaborasi ini adalah bukti dedikasi saya pada **User-Centered Design**, menciptakan alur kerja yang intuitif, tata letak yang bersih, dan elemen visual yang menarik. Tujuannya adalah menghadirkan pengalaman rapat online yang mulus dan interaktif, memastikan setiap interaksi terasa alami dan berkesan.",image:T,tech:["Figma","UI/UX Design","Prototyping","User Research","Wireframing"],liveLink:"#",githubLink:"#"},{id:4,title:"Algoritma Mobilitas: Sistem Ojek Online (Python)",description:"Sebuah eksplorasi mendalam dalam **algoritma dan struktur data** melalui simulasi sistem pemesanan ojek online berbasis konsol dengan **Python**. Proyek ini memperlihatkan kemampuan saya dalam menerjemahkan logika bisnis kompleks menjadi kode yang fungsional, mencakup pemesanan perjalanan, simulasi pencarian driver, dan estimasi biaya. Ini adalah fondasi yang kokoh dalam pemecahan masalah dan optimasi proses digital.",image:"#",tech:["Python","Algoritma","Data Structures","Console Application"],liveLink:"#",githubLink:"#"}];return a.jsxs(H,{initial:{opacity:0,y:50},animate:{opacity:1,y:0},exit:{opacity:0,y:-50},transition:{duration:.7,ease:"easeOut"},children:[a.jsx(D,{initial:{y:-50,opacity:0},animate:{y:0,opacity:1},transition:{duration:.7,ease:"easeOut"},children:"Galeri Inovasi Saya"})," ",a.jsx(O,{variants:V,children:r.map(n=>a.jsx(U,{title:n.title,description:n.description,image:n.image,tech:n.tech,liveLink:n.liveLink,githubLink:n.githubLink},n.id))}),a.jsxs(CallToActionSection,{initial:{opacity:0,y:50},whileInView:{opacity:1,y:0},viewport:{once:!0,amount:.5},transition:{duration:.7,delay:.5},children:[a.jsxs("p",{children:["Setiap proyek dalam galeri ini adalah cerminan dari ",a.jsx("strong",{children:"passion, dedikasi, dan perjalanan tanpa henti"})," saya dalam dunia pengembangan digital. Saya percaya bahwa teknologi memiliki kekuatan untuk menciptakan perubahan, dan setiap baris kode atau setiap piksel desain adalah langkah menuju solusi yang lebih baik.",a.jsx("br",{}),a.jsx("br",{}),a.jsx("strong",{children:"Apakah Anda terinspirasi untuk menciptakan sesuatu yang luar biasa? Atau memiliki ide yang ingin diwujudkan?"})]}),a.jsx(R,{to:"/contact",whileHover:{scale:1.05},whileTap:{scale:.95},children:"Mari Berkolaborasi & Berkreasi!"})]})]})}export{J as default};
+`,R={hidden:{opacity:0},visible:{opacity:1,transition:{delayChildren:.3,staggerChildren:.2}}};function G(){const r=[{id:1,title:"HealthyMind: Blog Kesehatan Mental",description:"Sebuah platform blog yang saya bangun dari nol menggunakan **HTML & CSS murni**. Proyek ini adalah wujud komitmen saya untuk menyajikan informasi kesehatan mental dengan **antarmuka bersih, intuitif, dan responsif**. Fokusnya adalah menciptakan pengalaman membaca yang menenangkan, sekaligus menonjolkan bagaimana desain fundamental dapat membawa dampak positif dan fungsionalitas yang kuat.",image:U,tech:["HTML5","CSS3","Responsive Design","UI/UX Concepts"],liveLink:"#",githubLink:"#"},{id:2,title:"Cashflow Maestro: Sistem Kasir Java",description:"Mengembangkan sistem kasir berbasis desktop yang **efisien dan terintegrasi** menggunakan **Java dan NetBeans**. Proyek ini mengasah kemampuan saya dalam **Pemrograman Berorientasi Objek (OOP)**, menyederhanakan manajemen transaksi harian dengan fitur lengkap seperti pencatatan produk, pembayaran cepat dengan struk otomatis, dan riwayat transaksi yang terorganisir. Sebuah studi kasus nyata dalam membangun aplikasi yang **andal dan berorientasi pada efisiensi operasional**.",image:z,tech:["Java","Java Swing","NetBeans","OOP","Database Design"],liveLink:"#",githubLink:"#"},{id:3,title:"Zoomify: Desain UI/UX Konferensi Video",description:"Memimpin perancangan UI/UX untuk **'Zoomify'**, sebuah aplikasi konferensi video inovatif, sepenuhnya di **Figma**. Proyek kolaborasi ini adalah bukti dedikasi saya pada **User-Centered Design**, menciptakan alur kerja yang intuitif, tata letak yang bersih, dan elemen visual yang menarik. Tujuannya adalah menghadirkan pengalaman rapat online yang mulus dan interaktif, memastikan setiap interaksi terasa alami dan berkesan.",image:M,tech:["Figma","UI/UX Design","Prototyping","User Research","Wireframing"],liveLink:"#",githubLink:"#"},{id:4,title:"Algoritma Mobilitas: Sistem Ojek Online (Python)",description:"Sebuah eksplorasi mendalam dalam **algoritma dan struktur data** melalui simulasi sistem pemesanan ojek online berbasis konsol dengan **Python**. Proyek ini memperlihatkan kemampuan saya dalam menerjemahkan logika bisnis kompleks menjadi kode yang fungsional, mencakup pemesanan perjalanan, simulasi pencarian driver, dan estimasi biaya. Ini adalah fondasi yang kokoh dalam pemecahan masalah dan optimasi proses digital.",image:"#",tech:["Python","Algoritma","Data Structures","Console Application"],liveLink:"#",githubLink:"#"}];return a.jsxs(H,{initial:{opacity:0,y:50},animate:{opacity:1,y:0},exit:{opacity:0,y:-50},transition:{duration:.7,ease:"easeOut"},children:[a.jsx(T,{initial:{y:-50,opacity:0},animate:{y:0,opacity:1},transition:{duration:.7,ease:"easeOut"},children:"Galeri Inovasi Saya"})," ",a.jsx(D,{variants:R,children:r.map(n=>a.jsx(B,{title:n.title,description:n.description,image:n.image,tech:n.tech,liveLink:n.liveLink,githubLink:n.githubLink},n.id))}),a.jsxs(O,{initial:{opacity:0,y:50},whileInView:{opacity:1,y:0},viewport:{once:!0,amount:.5},transition:{duration:.7,delay:.5},children:[a.jsxs("p",{children:["Setiap proyek dalam galeri ini adalah cerminan dari ",a.jsx("strong",{children:"passion, dedikasi, dan perjalanan tanpa henti"})," saya dalam dunia pengembangan digital. Saya percaya bahwa teknologi memiliki kekuatan untuk menciptakan perubahan, dan setiap baris kode atau setiap piksel desain adalah langkah menuju solusi yang lebih baik.",a.jsx("br",{}),a.jsx("br",{}),a.jsx("strong",{children:"Apakah Anda terinspirasi untuk menciptakan sesuatu yang luar biasa? Atau memiliki ide yang ingin diwujudkan?"})]}),a.jsx(i.a,{href:"/contact",whileHover:{scale:1.05},whileTap:{scale:.95},children:"Mari Berkolaborasi & Berkreasi!"})]})]})}export{G as default};
