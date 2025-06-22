@@ -2,6 +2,7 @@
   "name": "dini-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://helloimdini.github.io/my-portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
