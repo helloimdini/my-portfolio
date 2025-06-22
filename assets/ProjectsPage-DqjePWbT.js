@@ -1,4 +1,4 @@
-import{r as f,j as a,A as v,d as e,m as i,L as w}from"./index-v3IqPoVJ.js";const j=e(i.div)`
+import{r as f,j as a,A as v,d as e,m as i,L as w}from"./index-BzgaFxma.js";const j=e(i.div)`
   background-color: #1A1F27;
   border: 1px solid var(--color-accent-purple); 
   border-radius: 15px;
